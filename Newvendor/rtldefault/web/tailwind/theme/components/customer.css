@@ -24,3 +24,17 @@
 .actions-toolbar a.back {
     @apply text-secondary-darker underline
 }
+
+form fieldset .field.choice input,
+form.form .field.choice input {
+  @apply ml-4 mr-0;
+}
+#cart-drawer-title strong {
+    @apply mr-[30px];
+}
+.products-list .product-info {
+    @apply mr-2.5;
+}
+.field.limiter .form-select {
+    @apply mr-2.5;
+  }

@@ -1,3 +1,20 @@
 .category-view {
     .sidebar .block.filter {}
 }
+
+nav .pages-items .previous {
+    @apply rounded-r-md rounded-l-none;
+}
+nav .pages-items .next {
+    @apply rounded-l-md rounded-r-none;
+}
+dl#product-details .product-detail-value {
+    @apply ms-2 text-right;
+}
+dl#product-details dt {
+    @apply ms-2 text-right;
+}
+
+#product-addtocart-button {
+    margin-right: 10px;
+}
